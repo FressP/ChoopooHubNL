@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage"
+             Title="Choompoo Sing in">
+<ContentPage.Content>
+<StackLayout>
+
+            <Label Text="Регистрация" ></Label>
+            <Label Text="Вход" ></Label>
+
+        <Entry x:Name="Entry1"
+            Placeholder="Введите логин"
+            ></Entry>
+        <Entry 
+            x:Name = "passEntry"
+            Placeholder="Введите пароль"
+            ></Entry>
+
+        <Button Text="Войти" 
+                BorderRadius=" 0 "
+                Clicked="Sing_in_func"
+                />
+        <Label
+            x:Name = "Test1Lab"
+            Text="Вход" />
+    </StackLayout>
+        </ContentPage.Content>
+</ContentPage>
