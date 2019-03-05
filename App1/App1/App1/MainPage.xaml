@@ -3,12 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App1"
              x:Class="App1.MainPage"
-             Title="Choompoo Sing in">
-<ContentPage.Content>
-<StackLayout>
-
-            <Label Text="Регистрация" ></Label>
-            <Label Text="Вход" ></Label>
+             Title="Choompoo Sing in"
+             BackgroundColor="#212121">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            
+        <Label Text="Регистрация" ></Label>
+        <Label Text="Вход" ></Label>
 
         <Entry x:Name="Entry1"
             Placeholder="Введите логин"
@@ -24,7 +26,7 @@
                 />
         <Label
             x:Name = "Test1Lab"
-            Text="Вход" />
+            Text=" " />
     </StackLayout>
         </ContentPage.Content>
 </ContentPage>

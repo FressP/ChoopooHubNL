@@ -1,12 +1,21 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Data;
+using System.Data.SqlTypes;
+
+
+
+
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+
 namespace App1
 {
+    
     public partial class App : Application
     {
+
         public App()
         {
             InitializeComponent();
@@ -16,7 +25,8 @@ namespace App1
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+           DataBase
+
         }
 
         protected override void OnSleep()
